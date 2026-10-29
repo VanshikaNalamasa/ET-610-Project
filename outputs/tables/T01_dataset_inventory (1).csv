@@ -1,0 +1,75 @@
+column,role,dtype,non_null,n_missing,n_unique,min,median,mean,max
+skill,BKT/ID/excluded,string,187312,0,55,,,,
+problemId,BKT/ID/excluded,int64,187312,0,12141,807,84909.0,78468.90210451013,148175
+userId,BKT/ID/excluded,int64,187312,0,4139,52128,79023.0,79304.89515354062,89056
+assignmentId,BKT/ID/excluded,int64,187312,0,1950,216662,266772.0,262258.9663022123,278455
+assistmentId,BKT/ID/excluded,int64,187312,0,9257,810,46621.0,45140.88377146152,78537
+startTime,BKT/ID/excluded,float64,187312,0,187235,1231521049.986,1260549651.6490002,1259371407.10568,1271951919.891
+endTime,BKT/ID/excluded,float64,187312,0,187306,1231521107.87,1260549659.644,1259371440.3244386,1271951956.597
+timeTaken,candidate predictor,float64,187308,4,66775,0.001,16.347,33.22994880624426,599.583
+correct,candidate predictor,float64,187312,0,2,0.0,1.0,0.6566370547535663,1.0
+original,candidate predictor,int64,187312,0,2,0,1.0,0.883744768087469,1
+hint,candidate predictor,float64,187312,0,2,0.0,0.0,0.08802425899034766,1.0
+hintCount,candidate predictor,int64,187312,0,2,0,0.0,0.08802425899034766,1
+hintTotal,candidate predictor,int64,187312,0,7,0,3.0,2.942395575296831,6
+scaffold,candidate predictor,int64,187312,0,2,0,0.0,0.012978346288545314,1
+bottomHint,candidate predictor,int64,187312,0,2,0,0.0,0.00013880584265823866,1
+attemptCount,candidate predictor,int64,187312,0,1,1,1.0,1.0,1
+problemType,text,string,187312,0,4,,,,
+frIsHelpRequest,candidate predictor,int64,187312,0,2,0,0.0,0.10085846074997865,1
+afrHintCount,candidate predictor,float64,187262,50,7,0.0,0.0,0.44823829714517627,6.0
+afrUsedHintSuccessfully,candidate predictor,float64,187262,50,2,0.0,0.0,0.04585553929788211,1.0
+totalAfrPercentPastHelp,candidate predictor,float64,187312,0,3590,0.0,0.0,0.19611835422637258,1.0
+frPast5HelpRequest,candidate predictor,float64,187262,50,6,0.0,0.0,0.40746654420010464,5.0
+frPast8HelpRequest,candidate predictor,float64,187262,50,9,0.0,0.0,0.5798453503647296,8.0
+stlHintUsed,candidate predictor,float64,187262,50,2,0.0,0.0,0.0289754461663338,1.0
+past8BottomOut,candidate predictor,float64,187262,50,9,0.0,0.0,0.2686343198299708,8.0
+totalAfrPercentPastWrong,candidate predictor,float64,187312,0,3852,0.0,0.0,0.15772777088142564,1.0
+totalFrPercentPastWrong,candidate predictor,float64,187312,0,2021,0.0,0.23809524,0.2746229815220845,1.0
+totalFrPastWrongCount,candidate predictor,int64,187312,0,73,0,1.0,3.022016742120099,72
+afrWrongCount,candidate predictor,float64,187262,50,136,0.0,0.0,0.42405827129903556,681.0
+frPast5WrongCount,candidate predictor,float64,187262,50,6,0.0,1.0,1.0155237047559036,5.0
+frPast8WrongCount,candidate predictor,float64,187262,50,9,0.0,1.0,1.4173404107613932,8.0
+afrTimeTaken,candidate predictor,float64,187262,50,37070,-7267.7266,0.0,12.06922118195763,2240.9524
+afrTimeByWrong,candidate predictor,float64,187262,50,20023,-401.013,0.0,3.9979542831278314,719.278
+afrTimeByHint,candidate predictor,float64,187262,50,27070,-7267.7266,0.0,3.7160700044107724,1099.124
+totalAfrTimeOnSkill,candidate predictor,float64,187262,50,48952,-7267.7266,30.761,124.67025057235747,3840.4673
+totalFrTimeOnSkill,candidate predictor,float64,187262,50,145384,-108.65503,132.34949999999998,269.55619670674776,6239.3613
+timeSinceSkill,candidate predictor,float64,187262,50,56548,-14464921.598999975,1.818000078201294,236738.73160445798,34402732.65299988
+fastestHint,candidate predictor,float64,187262,50,7510,-7288.384,0.0,0.7288742670696672,592.109
+fastestAfterHint,candidate predictor,float64,187262,50,10082,-7288.384,0.0,1.247465940767481,576.503
+fastestWrong,candidate predictor,float64,187262,50,27333,-860.437,0.0,7.203350930781471,597.514
+fastestAfterWrong,candidate predictor,float64,187262,50,14546,-860.437,0.0,2.2648780799094315,596.981
+slowestHint,candidate predictor,float64,187262,50,16913,0.0,0.0,3.681935251145455,596.981
+slowestAfterHint,candidate predictor,float64,187262,50,18465,0.0,0.0,3.6376034593243696,576.503
+slowestWrong,candidate predictor,float64,187262,50,33642,-842.373,0.0,11.972160395595477,599.611
+slowestAfterWrong,candidate predictor,float64,187262,50,21412,0.0,0.0,5.11611962384253,599.611
+frWorkingInSchool,candidate predictor,int64,187312,0,2,0,1.0,0.6403967711625523,1
+totalFrAttempted,candidate predictor,int64,187312,0,694,0,41.0,71.62882783804561,693
+totalFrSkillOpportunities,candidate predictor,float64,187262,50,135,0.0,5.0,9.524842199698817,134.0
+totalAfrSkillOpportunities,candidate predictor,float64,187262,50,420,0.0,3.0,14.22554495840053,853.0
+totalAfrWrongCount,candidate predictor,float64,187262,50,251,0.0,0.0,5.175054202133909,808.0
+responseIsFillIn,candidate predictor,int64,187312,0,1,0,0.0,0.0,0
+responseIsChosen,candidate predictor,int64,187312,0,1,0,0.0,0.0,0
+afrAttemptCount,candidate predictor,float64,187262,50,140,0.0,0.0,1.1640589121124414,685.0
+endsWithScaffolding,candidate predictor,float64,187262,50,2,0.0,0.0,0.012891029680340912,1.0
+endsWithAutoScaffolding,candidate predictor,float64,187262,50,2,0.0,0.0,0.038865333062767675,1.0
+frTimeTakenOnScaffolding,candidate predictor,float64,187262,50,13824,-6.206,0.0,2.1148723286091142,561.839
+afrTimeTakenOnScaffolding,candidate predictor,float64,187262,50,8313,0.0,0.0,1.5670318105688816,1099.124
+totalAfrTimeOnSkillScaffolding,candidate predictor,float64,187312,0,8669,0.0,0.0,12.867858714801509,1880.9879
+frTotalSkillOpportunitiesScaffolding,candidate predictor,int64,187312,0,88,0,0.0,0.9651383787477578,87
+totalFrSkillOpportunitiesByScaffolding,candidate predictor,float64,187262,50,861,0.0,0.0,0.22315212564535256,28.0
+frIsHelpRequestScaffolding,candidate predictor,float64,170141,17171,2,0.0,0.0,0.0270657866122804,1.0
+afrHintCountScaffolding,candidate predictor,float64,187262,50,6,0.0,0.0,0.08500389828155205,5.0
+Ln-1,BKT/ID/excluded,float64,187312,0,62549,0.001,0.717,0.6248228111432138,1.0
+Ln,BKT/ID/excluded,float64,187312,0,67999,0.0010013513513513,0.8271736979039828,0.6622605050715682,1.0
+G,BKT/ID/excluded,float64,187312,0,19,0.001,0.299,0.28528759502861534,0.299
+S,BKT/ID/excluded,float64,187312,0,9,0.001,0.1,0.09667598979243187,0.1
+T,BKT/ID/excluded,float64,187312,0,47,0.001,0.103,0.11770827282822242,0.299
+P(J),BKT/ID/excluded,object,187312,0,59368,,,,
+groupId,BKT/ID/excluded,int64,187312,0,6,1,4.0,3.486156786537969,6
+PJ,target,Float64,119141,68171,59341,0.0,0.00014131179502041628,0.0028179770360847586,0.0751740734627745
+labeled,BKT/ID/excluded,bool,187312,0,2,False,1.0,0.6360564192363544,True
+opp,BKT/ID/excluded,int64,187312,0,141,1,6.0,10.624514179550696,141
+seqlen,BKT/ID/excluded,int64,187312,0,107,1,13.0,20.24902835910139,141
+row_id,BKT/ID/excluded,int64,187312,0,187312,0,93655.5,93655.5,187311

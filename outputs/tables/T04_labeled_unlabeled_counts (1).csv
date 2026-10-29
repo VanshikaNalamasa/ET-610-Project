@@ -1,0 +1,4 @@
+group,rows,students,pct_rows
+labeled (P(J) observed),119141,3622,63.60564192363543
+unlabeled (P(J) '.'/missing/out-of-range),68171,4139,36.39435807636457
+total,187312,4139,100.0

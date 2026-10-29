@@ -1,0 +1,11 @@
+step,n_rows_or_values,note
+raw rows read,187312,file has ~187312 data lines; difference = malformed lines skipped by the parser (approx.; embedded newlines can distort the line count)
+non-numeric / malformed values coerced to NaN,0,none
+inf values -> NaN,0,
+dropped rows missing userId/skill/startTime,0,cannot be placed in a student-skill sequence
+dropped exact duplicate rows,0,
+negative timeTaken set to NaN,4,"0 rows have timeTaken == 0 (kept, flagged)"
+invalid correct (not 0/1) set to NaN,0,0 rows have missing correct; excluded from regression
+invalid hint (not 0/1) set to NaN,0,0 rows have missing hint; excluded from regression
+"P(J) outside [0,1] set to NaN (treated as unlabeled)",0,
+final cleaned rows,187312,"students=4139, skills=55"

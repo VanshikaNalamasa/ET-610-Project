@@ -1,0 +1,89 @@
+set,feature
+"reduced (correct, hint)",correct
+"reduced (correct, hint)",hint
+full (all allowed features),timeTaken
+full (all allowed features),correct
+full (all allowed features),original
+full (all allowed features),hint
+full (all allowed features),hintCount
+full (all allowed features),hintTotal
+full (all allowed features),scaffold
+full (all allowed features),bottomHint
+full (all allowed features),frIsHelpRequest
+full (all allowed features),afrHintCount
+full (all allowed features),afrUsedHintSuccessfully
+full (all allowed features),totalAfrPercentPastHelp
+full (all allowed features),frPast5HelpRequest
+full (all allowed features),frPast8HelpRequest
+full (all allowed features),stlHintUsed
+full (all allowed features),past8BottomOut
+full (all allowed features),totalAfrPercentPastWrong
+full (all allowed features),totalFrPercentPastWrong
+full (all allowed features),totalFrPastWrongCount
+full (all allowed features),afrWrongCount
+full (all allowed features),frPast5WrongCount
+full (all allowed features),frPast8WrongCount
+full (all allowed features),afrTimeTaken
+full (all allowed features),afrTimeByWrong
+full (all allowed features),afrTimeByHint
+full (all allowed features),totalAfrTimeOnSkill
+full (all allowed features),totalFrTimeOnSkill
+full (all allowed features),timeSinceSkill
+full (all allowed features),fastestHint
+full (all allowed features),fastestAfterHint
+full (all allowed features),fastestWrong
+full (all allowed features),fastestAfterWrong
+full (all allowed features),slowestHint
+full (all allowed features),slowestAfterHint
+full (all allowed features),slowestWrong
+full (all allowed features),slowestAfterWrong
+full (all allowed features),frWorkingInSchool
+full (all allowed features),totalFrAttempted
+full (all allowed features),totalFrSkillOpportunities
+full (all allowed features),totalAfrSkillOpportunities
+full (all allowed features),totalAfrWrongCount
+full (all allowed features),afrAttemptCount
+full (all allowed features),endsWithScaffolding
+full (all allowed features),endsWithAutoScaffolding
+full (all allowed features),frTimeTakenOnScaffolding
+full (all allowed features),afrTimeTakenOnScaffolding
+full (all allowed features),totalAfrTimeOnSkillScaffolding
+full (all allowed features),frTotalSkillOpportunitiesScaffolding
+full (all allowed features),totalFrSkillOpportunitiesByScaffolding
+full (all allowed features),frIsHelpRequestScaffolding
+full (all allowed features),afrHintCountScaffolding
+full (all allowed features),pt_algebra
+full (all allowed features),pt_choose_1
+full (all allowed features),pt_fill_in_1
+full minus HIGH-risk post-first-response features,timeTaken
+full minus HIGH-risk post-first-response features,correct
+full minus HIGH-risk post-first-response features,original
+full minus HIGH-risk post-first-response features,hint
+full minus HIGH-risk post-first-response features,hintTotal
+full minus HIGH-risk post-first-response features,scaffold
+full minus HIGH-risk post-first-response features,frIsHelpRequest
+full minus HIGH-risk post-first-response features,totalAfrPercentPastHelp
+full minus HIGH-risk post-first-response features,frPast5HelpRequest
+full minus HIGH-risk post-first-response features,frPast8HelpRequest
+full minus HIGH-risk post-first-response features,stlHintUsed
+full minus HIGH-risk post-first-response features,past8BottomOut
+full minus HIGH-risk post-first-response features,totalAfrPercentPastWrong
+full minus HIGH-risk post-first-response features,totalFrPercentPastWrong
+full minus HIGH-risk post-first-response features,totalFrPastWrongCount
+full minus HIGH-risk post-first-response features,frPast5WrongCount
+full minus HIGH-risk post-first-response features,frPast8WrongCount
+full minus HIGH-risk post-first-response features,totalAfrTimeOnSkill
+full minus HIGH-risk post-first-response features,totalFrTimeOnSkill
+full minus HIGH-risk post-first-response features,timeSinceSkill
+full minus HIGH-risk post-first-response features,frWorkingInSchool
+full minus HIGH-risk post-first-response features,totalFrAttempted
+full minus HIGH-risk post-first-response features,totalFrSkillOpportunities
+full minus HIGH-risk post-first-response features,totalAfrSkillOpportunities
+full minus HIGH-risk post-first-response features,totalAfrWrongCount
+full minus HIGH-risk post-first-response features,frTimeTakenOnScaffolding
+full minus HIGH-risk post-first-response features,frTotalSkillOpportunitiesScaffolding
+full minus HIGH-risk post-first-response features,totalFrSkillOpportunitiesByScaffolding
+full minus HIGH-risk post-first-response features,frIsHelpRequestScaffolding
+full minus HIGH-risk post-first-response features,pt_algebra
+full minus HIGH-risk post-first-response features,pt_choose_1
+full minus HIGH-risk post-first-response features,pt_fill_in_1
