@@ -1,6 +1,6 @@
 # Predicting Moment of Learning in ASSISTments
 
-**ET-610 Project | Educational Data Mining**
+**ET-610 Project | Learning Analytics and Educational Data Mining**
 
 A study of how accurately the probability of a *moment of learning* can be predicted using a reduced feature set, and how prediction performance relates to student behavioral profiles.
 
@@ -34,15 +34,14 @@ ET-610-Project-/
 ├── outputs/
 │   ├── figures/
 │   └── tables/
-└── report.pdf
+└── ET610_Project_Report.pdf
 ```
 
 - **`ET610_Project.ipynb`** — Jupyter notebook containing the data analysis, feature preparation, modeling, clustering, and evaluation workflow.
 - **`outputs/figures/`** — Figures generated for exploratory analysis, behavioral profiles, and model evaluation.
 - **`outputs/tables/`** — Tables containing descriptive statistics, model metrics, and statistical comparisons.
-- **`report.pdf`** — Final project report describing the methodology, results, interpretation, and limitations.
+- **`ET610_Project_Report.pdf`** — Final project report describing the methodology, results, interpretation, and limitations.
 
-*Note: Update `report.pdf` to the actual report filename if it differs in your repository.*
 
 ## Methodology
 
